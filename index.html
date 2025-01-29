@@ -3,27 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windows XP - My Godot Game</title>
+    <title>creativename</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="desktop">
-        <img src="wallpaper.jpg" class="wallpaper" alt="Windows XP Wallpaper">
-        <div class="icon">📂 My Game</div>
+        <div class="window" style="width: 300px">
+  <div class="title-bar">
+    <div class="title-bar-text">A Window With Stuff In It</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
     </div>
-    <div class="taskbar">
-        <div class="start-button">Start</div>
-        <div class="clock">19:45</div>
-    </div>
-    <div class="window" id="game-window">
-        <div class="window-header">
-            <span>My Godot Game</span>
-            <button onclick="closeWindow()">X</button>
-        </div>
-        <div class="window-content">
-            <iframe src="game/index.html" frameborder="0"></iframe>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  </div>
+  <div class="window-body">
+    <p>There's so much room for activities!</p>
+  </div>
+</div>
 </body>
 </html>
